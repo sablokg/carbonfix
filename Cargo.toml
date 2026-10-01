@@ -1,0 +1,22 @@
+[package]
+name = "carbonfix"
+version = "0.1.0"
+edition = "2024"
+readme = "README.md"
+license = "MIT"
+authors = ["Gaurav Sablok"]
+description = "carbonfixation machine learning"
+homepage = "https://codeberg.org/gsablok/carbonfix"
+repository = "https://codeberg.org/gsablok/carbonfix"
+keywords = ["bioinformatics", "genomics"]
+
+[dependencies]
+axonml = "0.4.1"
+clap = { version = "4.5.57", features = ["derive"] }
+figlet-rs = "0.1.5"
+linfa-linear = { version = "0.8.1", features = ["ndarray-linalg"] }
+ndarray = "0.15"
+ndarray-csv = "0.5"
+ndarray-glm = "0.1.0"
+rayon = "1.11.0"
+smartcore = { version = "0.4.9"}
